@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>❤️Love Calculator❤️</h1>
+    <div class="calculator">
+      <h2>Love Calculator ❤️</h2>
+      <div class="input-group">
+        <label for="yourname">Your Name</label>
+        <input type="text" id="yourname" placeholder="Your Name" />
+      </div>
+
+      <div class="input-group">
+        <label for="partnername">Partner Name</label>
+        <input type="text" id="partnername" placeholder="Partner Name" />
+      </div>
+
+      <button id="calculate" onclick="calculateLove()">Calculate Love</button>
+
+      <div class="result">
+        <h3>Your Love Percentage:</h3>
+        <p id="answer">💖</p>
+      </div>
+    </div>
+
     <script src="app.js"></script>
   </body>
 </html>
